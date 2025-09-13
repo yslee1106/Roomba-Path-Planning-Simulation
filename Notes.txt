@@ -1,0 +1,21 @@
+Simulation:
+-End goal of simulation is the coverage of the whole room (up to 95%)
+-Result is the time taken to complete the simulation
+-Conduct the simulation for each algorithm 5 times (to be determined) and get the average time
+-Compare average simulation times of all the algorithms
+
+Algorithms:
+-Random Walk Algorithm
+	-The robot moves in a random direction until it encounters an obstacle, then changes direction randomly
+	-Example of bad algorithm
+-Wall Follow
+	-The robot moves along walls or obstacles to clean edges systematically
+-Zig Zag Pattern
+	-The robot follows a pre-programmed spiral or back-and-forth (zig-zag) pattern to clean systematically
+-Simultaneous Localization and Mapping
+	-The robot builds a map of the environment using sensors like LiDAR, cameras, or infrared, and determines 	 its position in real-time
+-Probabilistic Roadmaps
+	-Probabilistic roadmaps generate a graph of possible paths in the environment
+	-A* (A-star) finds the shortest path to the target using heuristics
+-Coverage Path Planning
+	-Ensures systematic coverage by dividing the area into a grid and navigating each cell.

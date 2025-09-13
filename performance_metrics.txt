@@ -1,0 +1,4 @@
+Path Cost: 642
+Area Coverage: 33.61%
+Reached Goal: No
+Complete: No
